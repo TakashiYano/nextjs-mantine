@@ -22,7 +22,7 @@
     "@types/react": "18.0.28",
     "autoprefixer": "10.4.14",
     "concurrently": "7.6.0",
-    "eslint": "8.17.0",
+    "eslint": "8.36.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "8.5.0",
     "pathpida": "0.18.1",
