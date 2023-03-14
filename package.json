@@ -12,7 +12,7 @@
     "@mantine/core": "4.2.12",
     "@mantine/hooks": "4.2.12",
     "@mantine/next": "4.2.12",
-    "next": "12.1.7-canary.33",
+    "next": "12.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-error-boundary": "3.1.4"
@@ -23,7 +23,7 @@
     "autoprefixer": "10.4.14",
     "concurrently": "7.6.0",
     "eslint": "8.36.0",
-    "eslint-config-next": "12.1.6",
+    "eslint-config-next": "12.3.4",
     "eslint-config-prettier": "8.7.0",
     "pathpida": "0.20.1",
     "postcss": "8.4.21",
