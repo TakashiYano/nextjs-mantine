@@ -7,6 +7,7 @@ import { ActiveLink } from "src/lib/next";
 const ITEMS = [
   { href: getPath("INDEX"), label: "ホーム" },
   { href: getPath("SETTING"), label: "設定" },
+  { href: getPath("ABOUT"), label: "コンポーネント" },
 ];
 
 export const DashboardLayout: CustomLayout = (page) => {
@@ -22,7 +23,7 @@ export const DashboardLayout: CustomLayout = (page) => {
                     component="a"
                     variant={isActive ? "filled" : "outline"}
                   >
-                    label
+                    {label}
                   </Button>
                 );
               }}

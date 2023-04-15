@@ -2,6 +2,7 @@ const PATH = {
   INDEX: "/",
   SETTING: "/settings",
   SIGN_IN: "/sign-in",
+  ABOUT: "/about",
 } as const;
 
 export const getPath = (pathKey: keyof typeof PATH, ...args: string[]) => {
