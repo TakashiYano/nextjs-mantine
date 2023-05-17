@@ -9,5 +9,9 @@ type Props = Omit<LinkProps, "children"> & {
 
 export const ActiveLink: FC<Props> = ({ children, ...linkProps }) => {
   const { pathname } = useRouter();
-  return <Link {...linkProps}>{children(pathname === linkProps.href)}</Link>;
+  return (
+    <Link {...linkProps} legacyBehavior>
+      {children(pathname === linkProps.href)}
+    </Link>
+  );
 };

@@ -1,5 +1,5 @@
 import type { CustomNextPage } from "next";
-import { DashboardLayout } from "src/layout";
+import { DashboardLayout } from "src/layout/DashboardLayout";
 import { Button, useMediaQuery, useViewportSize } from "src/lib/mantine";
 
 const About: CustomNextPage = () => {

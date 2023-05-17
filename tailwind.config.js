@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /* https://mantine.dev/theming/extend-theme/ */
 const mantineColors = {
   m_dark: {
@@ -174,6 +176,9 @@ const mantineColors = {
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   important: "#__next",
+  corePlugins: {
+    preflight: false,
+  },
   theme: {
     /* Mantineと一致させる: https://mantine.dev/theming/responsive */
     screens: {
@@ -185,6 +190,9 @@ module.exports = {
     },
     extend: {
       colors: mantineColors,
+      fontFamily: {
+        sans: ['"Greycliff CF"', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [],
