@@ -27,7 +27,7 @@
     "concurrently": "8.0.1",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "8.10.2",
     "pathpida": "0.20.1",
     "postcss": "8.4.23",
     "prettier": "2.8.8",
